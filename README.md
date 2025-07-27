@@ -1,22 +1,7 @@
-#Gender Classification with Face Detection
-This project demonstrates how to perform face detection and subsequent gender classification on images using pre-trained models from the Hugging Face transformers library and OpenCV for image processing.
+# Gender-Classifier: Face Detection and Gender Classification
 
-Features
-Face Detection: Utilizes OpenCV's Haar Cascade classifier to detect human faces within an image.
+Gender-Classifier is a simple yet effective system that combines face detection (using OpenCV's Haar Cascades) with deep learning (Hugging Face Transformers) to classify the gender of individuals in images. The project leverages pre-trained models for rapid deployment and demonstrates a clear pipeline for image analysis.
 
-Gender Classification: Classifies the gender (Male/Female) of detected faces using a pre-trained image classification model.
+---
 
-Visual Output: Draws bounding boxes around detected faces and labels them with the predicted gender.
-
-Requirements
-To run this project, you need the following Python libraries:
-
-transformers
-
-torch
-
-opencv-python
-
-Pillow
-
-numpy
+## 📂 Project Structure
